@@ -1,0 +1,14 @@
+p {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 18px;
+  color: #1F1E1E;
+  line-height: 1.5;
+}
+
+a:hover {
+  color: green;
+}
+
+a:visited {
+  color: red;
+}
