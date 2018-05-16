@@ -1,3 +1,16 @@
+body {
+  max-width: 90%;
+  margin: 0 auto;
+  border: 1px solid black;
+  background-image:
+    url("https://www.google.be/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"),
+    linear-gradient(to bottom, rgba(255,255,0,0.5), rgba(0,0,255,0.5));
+  background-repeat: no-repeat;
+  background-position: bottom right;
+
+  background-attachment: fixed;
+}
+
 p {
   font-family: "Times New Roman", Times, serif;
   font-size: 18px;
@@ -11,4 +24,86 @@ a:hover {
 
 a:visited {
   color: red;
+}
+
+blockquote {
+  font-style: italic;
+  max-width: 50%;
+  margin: 80px auto;
+  font-size: 160%;
+  background-color: #F0EEEB;
+  border-left: 3px solid maroon;
+  padding-left: 30px;
+}
+
+.fermier {
+  border-left: 3px solid blue;
+}
+
+.villageois {
+  border-left: 3px solid red;
+}
+
+header .jaune {
+  background-color: yellow;
+}
+
+.bien, .mal {
+  text-transform: uppercase;
+}
+
+.mal {
+  color: red;
+}
+
+.bien {
+  color: green;
+}
+
+q {
+  font-style: italic;
+  padding: 20px;
+}
+
+tr:nth-child(odd) {
+  background-color: grey;
+}
+
+tr:nth-child(even) {
+  background-color: white;
+}
+
+.histoire {
+  line-height: 3;
+}
+
+li {
+  line-height: 3;
+}
+
+#chat {
+  background-image: url(https://raw.githubusercontent.com/becodeorg/lovelace-2/master/01-La-prairie/html-css/progressive-enhancement/chat.png);
+  background-repeat: no-repeat;
+  padding-right: 50px;
+  display: inline-block;
+  height: 50px;
+  background-position: right;
+}
+
+#bienListe {
+  background-image: url();
+  background-repeat: no-repeat;
+  padding-right: 50px;
+  display: inline-block;
+  height: 50px;
+  background-position: right;
+}
+
+#malListe {
+  background-image: url();
+  background-repeat: no-repeat;
+  padding-right: 50px;
+  display: inline-block;
+  height: 50px;
+  background-position: right;
 }
