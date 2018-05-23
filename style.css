@@ -7,7 +7,6 @@ body {
     linear-gradient(to bottom, rgba(255,255,0,0.5), rgba(0,0,255,0.5));
   background-repeat: no-repeat;
   background-position: bottom right;
-
   background-attachment: fixed;
 }
 
@@ -16,6 +15,21 @@ p {
   font-size: 18px;
   color: #1F1E1E;
   line-height: 1.5;
+  margin-left: 10px;
+}
+
+main {
+  position: relative;
+  border : 2px solid blue;
+}
+
+main img {
+  float: left;
+  margin: 15px 30px;
+}
+
+footer {
+  border: 3px solid red;
 }
 
 a:hover {
@@ -36,6 +50,27 @@ blockquote {
   padding-left: 30px;
 }
 
+.personType {
+  position : relative;
+  border: 1px solid black;
+  height: 720px;
+  margin : 10px;
+}
+
+.marsDiv {
+  position : relative;
+  border : 1px solid black;
+  margin : 10px;
+  height: 900px;
+}
+
+.chinois {
+  position: relative;
+  border : 1px solid black;
+  margin : 10px;
+  height: 1600px;
+}
+
 .fermier {
   border-left: 3px solid blue;
 }
@@ -48,21 +83,56 @@ header .jaune {
   background-color: yellow;
 }
 
-.bien, .mal {
-  text-transform: uppercase;
-}
-
 .mal {
   color: red;
+  text-transform: uppercase;
 }
 
 .bien {
   color: green;
+  text-transform: uppercase;
 }
 
 q {
+  font-size: 160%;
   font-style: italic;
   padding: 20px;
+  background-color: #F0EEEB;
+}
+
+.histoire {
+  line-height: 2;
+}
+
+li {
+  line-height: 4;
+}
+
+#chat {
+  background-image: url(https://raw.githubusercontent.com/becodeorg/lovelace-2/master/01-La-prairie/html-css/progressive-enhancement/chat.png);
+  background-repeat: no-repeat;
+  padding-right: 70px;
+  display: inline-block;
+  height: 50px;
+  background-position: right;
+}
+
+#bienList {
+  background-image: url(https://raw.githubusercontent.com/becodeorg/lovelace-2/master/01-La-prairie/html-css/progressive-enhancement/bien.png);
+  background-repeat: no-repeat;
+  padding-right: 70px;
+  display: inline-block;
+  height: 50px;
+  background-position: right;
+}
+
+#malList {
+  background-image: url(https://raw.githubusercontent.com/becodeorg/lovelace-2/master/01-La-prairie/html-css/progressive-enhancement/mal.png);
+  background-repeat: no-repeat;
+  padding-right: 70px;
+  display: inline-block;
+  height: 50px;
+  background-position: right;
 }
 
 tr:nth-child(odd) {
@@ -71,39 +141,4 @@ tr:nth-child(odd) {
 
 tr:nth-child(even) {
   background-color: white;
-}
-
-.histoire {
-  line-height: 3;
-}
-
-li {
-  line-height: 3;
-}
-
-#chat {
-  background-image: url(https://raw.githubusercontent.com/becodeorg/lovelace-2/master/01-La-prairie/html-css/progressive-enhancement/chat.png);
-  background-repeat: no-repeat;
-  padding-right: 50px;
-  display: inline-block;
-  height: 50px;
-  background-position: right;
-}
-
-#bienListe {
-  background-image: url();
-  background-repeat: no-repeat;
-  padding-right: 50px;
-  display: inline-block;
-  height: 50px;
-  background-position: right;
-}
-
-#malListe {
-  background-image: url();
-  background-repeat: no-repeat;
-  padding-right: 50px;
-  display: inline-block;
-  height: 50px;
-  background-position: right;
 }

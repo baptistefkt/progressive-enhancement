@@ -1,0 +1,54 @@
+html {
+
+}
+
+body {
+
+}
+
+.topHeader {
+  outline: 2px solid blue;
+}
+
+nav {
+  padding: 1em;
+  display: flex;
+}
+
+main {
+  outline: 5px solid grey;
+}
+
+.left {
+  flex: 1;
+  text-align: left;
+}
+
+.right {
+  flex: 1;
+  text-align: right;
+}
+
+.features {
+}
+
+.featuresHeader {
+  margin: 0 auto;
+  width: 80%;
+  font-size: 2.625em;
+  outline: 1px solid;
+}
+
+.featuresContainer {
+  display: flex;
+  justify-content: center;
+  background-color: #434555;
+  outline: 1px solid green;
+}
+
+.block {
+  width: 310px;
+  height: 350px;
+  outline: 1px solid red;
+  text-align: center;
+}
