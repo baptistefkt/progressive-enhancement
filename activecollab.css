@@ -5,18 +5,11 @@ html {
 body {
 
 }
-
-.topHeader {
-  outline: 2px solid blue;
-}
+/* _______________Header_________________*/
 
 nav {
   padding: 1em;
   display: flex;
-}
-
-main {
-  outline: 5px solid grey;
 }
 
 .left {
@@ -24,10 +17,15 @@ main {
   text-align: left;
 }
 
+.left a {
+  margin: 0 5px;
+}
+
 .right {
   flex: 1;
   text-align: right;
 }
+/*____________section features____________*/
 
 .features {
 }
@@ -35,20 +33,80 @@ main {
 .featuresHeader {
   margin: 0 auto;
   width: 80%;
-  font-size: 2.625em;
-  outline: 1px solid;
+  font-size: 1.875em;
 }
 
 .featuresContainer {
   display: flex;
   justify-content: center;
   background-color: #434555;
-  outline: 1px solid green;
 }
 
 .block {
   width: 310px;
   height: 350px;
-  outline: 1px solid red;
   text-align: center;
+  border: 1px solid;
+}
+
+.featBottom {
+  text-align: center;
+}
+.featText {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+  font-size: 1.3125em;
+  padding: 30px;
+}
+
+.button {
+outline: 1px solid;
+}
+
+.small {
+  width: 50%;
+  margin: auto;
+  font-size: 0.875em;
+  text-align: center;
+}
+
+.computer {
+  width: 80%;
+  margin: auto;
+}
+/*______________section pricing_______________*/
+
+.pricingTop {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.pricingBottom {
+  display: flex;
+  justify-content: center;
+}
+
+.pricingLeft {
+  border-right: 1px solid grey;
+  width: 400px;
+  text-align: center;
+}
+
+.pricingRight {
+
+  width: 400px;
+  text-align: center;
+}
+
+/*__________section partners__________*/
+
+.partners {
+  text-align: center;
+}
+
+.partnersList {
+  display: flex;
+  justify-content: space-around;
 }
