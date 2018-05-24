@@ -9,17 +9,17 @@
     <header class="topHeader">
       <nav>
         <div class="menu left">
-          <a href="#" class="logo"><img src="https://activecollab.com/assets/images/logo-w-type.svg" alt="logo-ActiveCollab"></a>
-          <a href="#">Features</a>
-          <a href="#">Pricing</a>
-          <a id="more" href="#">More +</a>
+          <a href="#" id="logo"><img src="https://activecollab.com/assets/images/logo-w-type.svg" alt="logo-ActiveCollab"></a>
+          <a class="navBar" href="#">Features</a>
+          <a class="navBar" href="#">Pricing</a>
+          <a class="navBar" id="more" href="#">More +</a>
         </div>
         <div class="menu right">
-          <a href="#">Help & Support</a>
-          <a href="#">Blog</a>
-          <a href="#">Ressources</a>
-          <a href="#">Try It Free</a>
-          <a href="#">Sign In</a>
+          <a class="navBar" href="#">Help & Support</a>
+          <a class="navBar" href="#">Blog</a>
+          <a class="navBar" href="#">Ressources</a>
+          <a class="navBar" href="#">Try It Free</a>
+          <a class="navBar" href="#">Sign In</a>
         </div>
       </nav>
     </header>
@@ -116,25 +116,30 @@
         -->
 
       </section>
-      <section class="form">
-        <div class="formTop">
+      <section class="getStarted">
+        <div class="getTop">
           <h2>Get started with Active Collab</h2>
           <p>Enter your details to get a month of ActiveCollab absolutely free, without any limitations.</p>
         </div>
-        <div class="formBottom">
-          <form class="formForm" action="index.html" method="post">
+        <div class="getForm">
+          <form class="theForm" action="index.html" method="post">
             <p>Your Name or Organization</p>
-            <input type="text" name="Name" value="Enter name or organization">
+            <input class="inputForm" type="text" name="Name" value="Enter name or organization">
             <p>Email</p>
-            <input type="text" name="Email" value="name@organization.com">
+            <input class="inputForm" type="text" name="Email" value="name@organization.com">
             <p>Password</p>
-            <input type="text" name="Password" value="The longer, the stronger">
+            <input class="inputForm password" type="text" name="Password" value="The longer, the stronger">
+          </form>
+          <div class="formBottom">
             <a class="smallbutton" href="#">Start my free month!</a>
             <p>Hope you'll enjoy it!</p>
-          </form>
-          <p class="safe">Your data is safe with us</p>
-          <p class="security">Active Collab Security</p>
+          </div>
         </div>
+
+
+        <p class="safe">Your data is safe with us</p>
+        <p class="security">Active Collab Security</p>
+
 
       </section>
     </main>
