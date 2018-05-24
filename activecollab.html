@@ -12,10 +12,11 @@
           <a href="#" class="logo"><img src="https://activecollab.com/assets/images/logo-w-type.svg" alt="logo-ActiveCollab"></a>
           <a href="#">Features</a>
           <a href="#">Pricing</a>
-          <a href="#">More +</a>
+          <a id="more" href="#">More +</a>
         </div>
         <div class="menu right">
           <a href="#">Help & Support</a>
+          <a href="#">Blog</a>
           <a href="#">Ressources</a>
           <a href="#">Try It Free</a>
           <a href="#">Sign In</a>
@@ -57,7 +58,9 @@
           </p>
           <a href="" class="button">Try it for 30 days!</a>
           <p class="small">No credit card required, unsubscribe at any time.</p>
-          <img class="computer" src="https://activecollab.com/assets/images/activecollab-project-management-kanban-screenshot.png" alt="">
+          <div class="computerDiv">
+            <img class="computer" src="https://activecollab.com/assets/images/activecollab-project-management-kanban-screenshot.png" alt="">
+          </div>
         </div>
       </section>
       <section class="pricing">
@@ -69,26 +72,26 @@
         </div>
         <div class="pricingBottom">
           <div class="pricingLeft">
-            <img src="" alt="">
+            <img src="img_activecollab/monthlyPlans.png" alt="">
             <h3>Monthly Plans</h3>
             <ul>
               <li>In the cloud</li>
               <li>No setup required</li>
               <li>Ready in 2 minutes</li>
             </ul>
-            <a href="#">Plans & Pricing</a>
-            <p>from $25 / month</p>
+            <a class="smallbutton" href="#">Plans & Pricing</a>
+            <p class="italic">from $25 / month</p>
           </div>
           <div class="pricingRight">
-            <img src="" alt="">
+            <img src="img_activecollab/selfHosted.png" alt="">
             <h3>Self-Hosted</h3>
             <ul>
               <li>Install on your own server</li>
               <li>Unlimited team members and storage</li>
               <li>One free year of support and upgrades</li>
             </ul>
-            <a href="#">Self-Hosted Pricing</a>
-            <p>one time free - from $999</p>
+            <a class="smallbutton" href="#">Self-Hosted Pricing</a>
+            <p class="italic">one time free - from $999</p>
           </div>
         </div>
       </section>
@@ -97,24 +100,115 @@
         <p>
           For more than 10 years, we've been trusted by over 200,000 people in companies ranging from small businesses to Fortune 500 members, universities and government institutions.
         </p>
-        <ul class="partnersList">
-          <li>F</li>
-          <li>A</li>
-          <li>B</li>
-          <li>C</li>
-          <li>D</li>
-          <li>E</li>
-          <li><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUefatG-4Lg9D2GveN_Z6pCg4NJiX2Vv96UqDYlZ3myD-VjKpG" alt=""></li>
-          <li>G</li>
-        </ul>
+        <img src="img_activecollab/partnersActive.png" alt="">
+
+          <!--
+          <ul class="partnersList">
+          <li><img src="img_activecollab/nasa.png" alt="logo-nasa"></li>
+          <li><img src="img_activecollab/harvard.png" alt="logo-harvard"></li>
+          <li><img src="img_activecollab/intel.png" alt="logo-intel"></li>
+          <li><img src="img_activecollab/agilvy.png" alt="logo-agilvy"></li>
+          <li><img src="img_activecollab/adobe.png" alt="logo-adobe"> </li>
+          <li><img src="img_activecollab/publicis.png" alt="logo-publicis"></li>
+          <li><img src="img_activecollab/apple.png" alt="logo-apple"></li>
+          <li><img src="img_activecollab/slack.png" alt="logo-slack"></li>
+          </ul>
+        -->
 
       </section>
       <section class="form">
+        <div class="formTop">
+          <h2>Get started with Active Collab</h2>
+          <p>Enter your details to get a month of ActiveCollab absolutely free, without any limitations.</p>
+        </div>
+        <div class="formBottom">
+          <form class="formForm" action="index.html" method="post">
+            <p>Your Name or Organization</p>
+            <input type="text" name="Name" value="Enter name or organization">
+            <p>Email</p>
+            <input type="text" name="Email" value="name@organization.com">
+            <p>Password</p>
+            <input type="text" name="Password" value="The longer, the stronger">
+            <a class="smallbutton" href="#">Start my free month!</a>
+            <p>Hope you'll enjoy it!</p>
+          </form>
+          <p class="safe">Your data is safe with us</p>
+          <p class="security">Active Collab Security</p>
+        </div>
 
       </section>
     </main>
     <footer>
-
+      <div class="listFooter">
+        <ul class="list product">
+          <li class="listHead">Product</li>
+          <li><a href="#">Features</a></li>
+          <li><a href="#">All Features</a></li>
+          <li><a href="#">Pricing</a></li>
+          <li><a href="#">Add-Ons</a></li>
+          <li><a href="#">Roadmap</a></li>
+          <li><a href="#">Timer</a></li>
+          <li><a href="#">Mobile Apps</a></li>
+        </ul>
+        <ul class="list alternative">
+          <li class="listHead">Alternative</li>
+          <li><a href="#">Best Project Management Tools Comparison</a></li>
+          <li><a href="#">Basecamp Alternative</a></li>
+          <li><a href="#">Trello Alternative</a></li>
+          <li><a href="#">Asana Alternative</a></li>
+          <li><a href="#">Teamwork Alternative</a></li>
+          <li><a href="#">Wrike Alternative</a></li>
+          <li><a href="#">JIRA Alternative</a></li>
+          <li><a href="#">MS Project Alternative</a></li>
+        </ul>
+        <ul class="list solution">
+          <li class="listHead">Solution</li>
+          <li><a href="#">Self-Hosted Project Management</a></li>
+          <li><a href="#">Task Management</a></li>
+          <li><a href="#">Project Management</a></li>
+          <li><a href="#">Team Collaboration</a></li>
+          <li><a href="#">Team Management</a></li>
+          <li><a href="#">Client Management</a></li>
+          <li><a href="#">Time Tracking</a></li>
+          <li><a href="#">Invoicing</a></li>
+        </ul>
+        <ul class="list teams">
+          <li class="listHead">For Teams</li>
+          <li><a href="#">Marketing</a></li>
+          <li><a href="#">Designers</a></li>
+          <li><a href="#">Web Design</a></li>
+          <li><a href="#">Web Development</a></li>
+          <li><a href="#">Startups</a></li>
+          <li><a href="#">SEO Agencies</a></li>
+          <li><a href="#">Small Business</a></li>
+        </ul>
+        <ul class="list company">
+          <li class="listHead">Company</li>
+          <li><a href="#">About & Contact</a></li>
+          <li><a href="#">Careers</a> </li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms of Service</a></li>
+          <li><a href="#">Security</a></li>
+        </ul>
+        <ul class="list resources">
+          <li class="listHead">Resources</li>
+          <li><a href="#">Project Management Guides</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Newsletter</a></li>
+          <li><a href="#">Help & Support</a></li>
+        </ul>
+      </div>
+      <div class="footerBottom">
+        <ul class="SocialIcon">
+          <li><a href="#"><img src="img_activecollab/facebook.svg" alt="facebook-icon"></a></li>
+          <li><a href="#"><img src="img_activecollab/twitter.svg" alt="twitter-icon"></a></li>
+          <li><a href="#"><img src="img_activecollab/instagram.svg" alt="instagram-icon"></a></li>
+          <li><a href="#"><img src="img_activecollab/linkedin.svg" alt="linkedin-icon"></a></li>
+          <li><a href="#"><img src="img_activecollab/medium.svg" alt="medium-icon"></a></li>
+        </ul>
+        <p class="happy">Happy collaboratoring!</p>
+        <p class="copyright">&copy;2007-2017 Active Collab</p>
+      </div>
     </footer>
   </body>
 </html>
