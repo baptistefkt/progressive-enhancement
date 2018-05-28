@@ -103,9 +103,10 @@ nav {
   margin: auto;
   text-align: center;
   font-size: 1.5em;
-  padding: 30px;
+  padding: 50px;
   font-family: Georgia;
   line-height: 1.5;
+  max-width: 700px;
 }
 
 .button {
@@ -113,7 +114,7 @@ nav {
   border-radius: 5px;
   background-color: #3F9BF8;
   font-size: 1.25em;
-  padding: 0.5em 2em 0.55em;
+  padding: 0.65em 2em 0.65em;
   font-weight: 600;
   text-decoration: none;
   color: white;
@@ -150,6 +151,7 @@ nav {
   line-height: 1.2;
   font-weight: 400;
   color: #202528;
+  padding-top: 50px;
 }
 
 .pricingTop p {
@@ -157,7 +159,7 @@ nav {
   margin: auto;
   text-align: center;
   font-size: 1.5em;
-  padding: 30px;
+  max-width: 700px;
   font-family: Georgia;
   line-height: 1.5;
 }
@@ -168,58 +170,66 @@ nav {
 }
 
 .pricingLeft {
-  outline: 1px solid;
-  width: 400px;
+  width: 350px;
   text-align: center;
-  margin-top: 60px;
-  margin-bottom: 60px;
+  padding: 35px 5px;
+  margin-top: 40px;
+  margin-bottom: 100px;
+  border-right: 1px solid #E0E0E0;
 }
 
 .pricingLeft ul {
   list-style-type: none;
+  padding-left: 0;
 }
 
 .pricingLeft h3 {
-  font-size: 1.5em;
+  font-size: 1.55em;
   line-height: 1.3;
   margin: 0.5em 0;
+  font-weight: 400;
 }
 
 .pricingRight {
-  width: 400px;
+  width: 350px;
   text-align: center;
-  outline: 1px solid;
+  padding: 35px 5px;
+  margin-top: 40px;
+  margin-bottom: 100px;
 }
 
 .pricingRight ul {
   list-style-type: none;
+  padding-left: 0;
 }
 
 .pricingRight h3 {
-  font-size: 1.5em;
+  font-size: 1.55em;
   line-height: 1.3;
   margin: 0.5em 0;
-  font-weight: 4400;
+  font-weight: 400;
 }
 
 .pricingLeft li {
-  font-size: 1.25em;
+  font-size: 1.20em;
   font-family: Georgia;
   line-height: 1.5;
 }
 
 .pricingRight li {
-  font-size: 1.25em;
+  font-size: 1.20em;
   font-family: Georgia;
   line-height: 1.5;
 }
 
 .smallbutton {
   border: 1px solid black;
+  display: inline-block;
   border-radius: 5px;
   background-color: #3F9BF8;
   font-size: 0.9375em;
-  padding: 0.3em 1.25em 0.4em;
+  padding: 0.45em 1.25em 0.45em;
+  margin: 5px;
   font-weight: 600;
   text-decoration: none;
   color: white;
@@ -237,11 +247,13 @@ nav {
 .partners {
   text-align: center;
   background-color: #E9ECF1;
+  border: 1px solid #D3D3D3;
 }
 
 .partners h2 {
   width: 40%;
-  margin: 0.5em auto;
+  margin: auto;
+  margin-top: 70px;
   text-align: center;
   font-size: 2em;
   line-height: 1.2;
@@ -254,22 +266,21 @@ nav {
   margin: auto;
   text-align: center;
   font-size: 1.5em;
-  padding: 30px;
+  padding: 20px;
   font-family: Georgia;
   line-height: 1.5;
 }
 
-.partnersList {
+/* .partnersList {
   width: 90%;
   margin: auto;
   display: flex;
   justify-content: space-around;
   list-style-type: none;
-}
+} */
 
-.partnersList img {
-  width: 80px;
-  height: auto;
+.partners img {
+  padding: 20px 60px 60px 80px;
 }
 
 /*___________________section form_________________*/
@@ -282,8 +293,9 @@ nav {
 
 .formTop h2 {
   font-size: 2.625em;
-  line-height: 1.1;
-  font-weight: 300;
+  font-weight: 400;
+  padding: 50px 0 20px 0;
+  margin: 0;
 }
 
 .formTop p {
@@ -292,6 +304,7 @@ nav {
   font-size: 1.3125em;
   font-family: Georgia;
   line-height: 1.5;
+  padding-bottom: 35px;
 }
 
 .formForm {
