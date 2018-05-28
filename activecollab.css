@@ -34,9 +34,27 @@ nav {
 
 .navBar {
   text-decoration: none;
-  vertical-align: middle;
+  padding: 8px;
 }
 
+#more {
+  color: grey;
+}
+
+#tryIt {
+  border: 1px solid black;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  background-color: #3F9BF8;
+  color: white;
+}
+
+#signIn {
+  border: 1px solid;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  background-color: white;
+}
 /*____________section features____________*/
 
 .features {
@@ -294,8 +312,8 @@ nav {
 }
 
 .getTop p {
-  width: 60%;
-  margin: 0 auto 34px auto;
+  width: 50%;
+  margin: auto;
   font-size: 1.3125em;
   font-family: Georgia;
   line-height: 1.5;
@@ -312,18 +330,17 @@ nav {
 
 .theForm {
   text-align: left;
-  width: 85%;
+  width: 88%;
   margin: auto;
 }
 
 .theForm p {
-  margin-top: 25px;
-  margin-bottom: 2px;
+  margin-top: 30px;
+  margin-bottom: 3px;
 }
 
 .inputForm {
-
-  padding: 0.7em 14em 0.7em 0.2em;
+  padding: 0.7em 13em 0.7em 0.9em;
   border: 1px solid grey;
   color: grey;
   font-size: 1em;
@@ -332,11 +349,30 @@ nav {
 }
 
 .password {
-  margin-bottom: 40px;
+  margin-bottom: 35px;
 }
 
 .formBottom p {
-  margin: 30px auto 40px auto;
+  margin: 15px auto 35px auto;
+}
+
+.formBottom .smallbutton {
+  padding: 0.55em 1.20em 0.55em;
+}
+
+.safe {
+  color : grey;
+  font-size: 0.9em;
+  margin-top: 30px;
+  margin-bottom: 0;
+}
+
+.security {
+  font-size: 0.9em;
+  color: grey;
+  text-decoration: underline;
+  margin-top: 4px;
+  padding-bottom: 90px;
 }
 
 /*________________footer_________________*/
@@ -348,22 +384,21 @@ footer {
 .listFooter {
 display: flex;
 justify-content: center;
+padding: 20px 40px;
 }
 
 .list {
   font-family: Arial;
-  line-height: 1.5em;
+  line-height: 2;
   list-style-type: none;
-}
-
-.list li {
-  padding-left: 0;
+  font-size: 0.9em;
+  padding: 20px;
 }
 
 .list a {
   text-decoration: none;
   color: white;
-  padding: 0.4em 1.2em;
+  padding: 0;
 }
 
 .listHead {
@@ -373,7 +408,6 @@ justify-content: center;
 
 .footerBottom {
   text-align: center;
-
 }
 
 .SocialIcon {
@@ -381,8 +415,23 @@ justify-content: center;
   justify-content: center;
   list-style-type: none;
   padding-left: 0;
+  margin-top: 0;
 }
 
 .SocialIcon li {
-  padding: 5px;
+  padding: 7px;
+}
+
+.happy {
+  color: #B0B2BD;
+  font-size: 0.9em;
+  margin-bottom: 5px;
+  padding-top: 10px;
+}
+
+.copyright {
+  color: #B0B2BD;
+  font-size: 0.9em;
+  margin-top: 5px;
+  padding-bottom: 50px;
 }
